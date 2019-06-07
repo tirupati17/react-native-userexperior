@@ -8,68 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNUserExperior.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUserExperior.m */; };
-		D5ECB46122AA747D00C81E0A /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ECB45622AA747D00C81E0A /* CrashReporter.framework */; };
-		D5ECB46222AA747D00C81E0A /* UserExperior.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ECB45822AA747D00C81E0A /* UserExperior.a */; };
+		D534D28522AAAA9500F473D3 /* UserExperior.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D534D28322AAAA9500F473D3 /* UserExperior.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D5E75CA922A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
-			remoteInfo = React;
-		};
-		D5E75CAB22A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
-			remoteInfo = "React-tvOS";
-		};
-		D5E75CAD22A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
-			remoteInfo = yoga;
-		};
-		D5E75CAF22A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
-			remoteInfo = "yoga-tvOS";
-		};
-		D5E75CB122A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
-			remoteInfo = cxxreact;
-		};
-		D5E75CB322A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
-			remoteInfo = "cxxreact-tvOS";
-		};
-		D5E75CB522A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		D5E75CB722A8E4FA007717BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -87,10 +27,8 @@
 		134814201AA4EA6300B7C361 /* libRNUserExperior.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUserExperior.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNUserExperior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUserExperior.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNUserExperior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUserExperior.m; sourceTree = "<group>"; };
-		D5E75C9E22A8E4FA007717BB /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		D5ECB45622AA747D00C81E0A /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
-		D5ECB45722AA747D00C81E0A /* UserExperior-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserExperior-Swift.h"; sourceTree = "<group>"; };
-		D5ECB45822AA747D00C81E0A /* UserExperior.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = UserExperior.a; sourceTree = "<group>"; };
+		D534D28322AAAA9500F473D3 /* UserExperior.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = UserExperior.a; sourceTree = "<group>"; };
+		D534D28422AAAA9500F473D3 /* UserExperior-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserExperior-Swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5ECB46222AA747D00C81E0A /* UserExperior.a in Frameworks */,
-				D5ECB46122AA747D00C81E0A /* CrashReporter.framework in Frameworks */,
+				D534D28522AAAA9500F473D3 /* UserExperior.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,37 +54,12 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				D5E75C9E22A8E4FA007717BB /* React.xcodeproj */,
+				D534D28422AAAA9500F473D3 /* UserExperior-Swift.h */,
+				D534D28322AAAA9500F473D3 /* UserExperior.a */,
 				B3E7B5881CC2AC0600A0062D /* RNUserExperior.h */,
 				B3E7B5891CC2AC0600A0062D /* RNUserExperior.m */,
-				D5ECB45522AA747D00C81E0A /* UserExperior */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D5E75C9F22A8E4FA007717BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D5E75CAA22A8E4FA007717BB /* libReact.a */,
-				D5E75CAC22A8E4FA007717BB /* libReact.a */,
-				D5E75CAE22A8E4FA007717BB /* libyoga.a */,
-				D5E75CB022A8E4FA007717BB /* libyoga.a */,
-				D5E75CB222A8E4FA007717BB /* libcxxreact.a */,
-				D5E75CB422A8E4FA007717BB /* libcxxreact.a */,
-				D5E75CB622A8E4FA007717BB /* libjschelpers.a */,
-				D5E75CB822A8E4FA007717BB /* libjschelpers.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D5ECB45522AA747D00C81E0A /* UserExperior */ = {
-			isa = PBXGroup;
-			children = (
-				D5ECB45622AA747D00C81E0A /* CrashReporter.framework */,
-				D5ECB45722AA747D00C81E0A /* UserExperior-Swift.h */,
-				D5ECB45822AA747D00C81E0A /* UserExperior.a */,
-			);
-			path = UserExperior;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,77 +107,12 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D5E75C9F22A8E4FA007717BB /* Products */;
-					ProjectRef = D5E75C9E22A8E4FA007717BB /* React.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNUserExperior */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D5E75CAA22A8E4FA007717BB /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = D5E75CA922A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CAC22A8E4FA007717BB /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = D5E75CAB22A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CAE22A8E4FA007717BB /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = D5E75CAD22A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CB022A8E4FA007717BB /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = D5E75CAF22A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CB222A8E4FA007717BB /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = D5E75CB122A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CB422A8E4FA007717BB /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = D5E75CB322A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CB622A8E4FA007717BB /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = D5E75CB522A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D5E75CB822A8E4FA007717BB /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = D5E75CB722A8E4FA007717BB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -334,10 +181,12 @@
 					"$(SRCROOT)/UserExperior/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 					"$(PROJECT_DIR)/UserExperior",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -393,10 +242,12 @@
 					"$(SRCROOT)/UserExperior/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 					"$(PROJECT_DIR)/UserExperior",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -421,10 +272,12 @@
 					"$(SRCROOT)",
 					"$(SRCROOT)/UserExperior/",
 				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/UserExperior",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -451,10 +304,12 @@
 					"$(SRCROOT)",
 					"$(SRCROOT)/UserExperior/",
 				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/UserExperior",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";

@@ -21,7 +21,6 @@
     }
   },
   "dependencies": {
-    "react-native": "^0.41.2",
-    "react-native-appsee": "^2.6.2"
+    "react-native": "^0.41.2"
   }
 }

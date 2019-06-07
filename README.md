@@ -33,6 +33,18 @@
       compile project(':react-native-userexperior')
   	```
 
+#### Very important (For iOS)
+
+For Xcode 10.2 and Swift 5 support please add below line in the Build Settings of your react native iOS project to include the swift libraries:
+
+- Add below line in Library Search Path:
+	```	
+	$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) 
+	````
+- Add below line in the Runpath Search Path:
+	```
+	/usr/lib/swift
+	```
 
 ## Usage
 ```javascript
