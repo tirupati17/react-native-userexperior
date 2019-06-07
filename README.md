@@ -5,6 +5,10 @@
 
 `$ npm install react-native-userexperior --save`
 
+or for locally 
+
+`$ npm install -save file:/path-to-the-react-native-userexperior`
+
 ### Mostly automatic installation
 
 `$ react-native link react-native-userexperior`
@@ -33,7 +37,7 @@
       compile project(':react-native-userexperior')
   	```
 
-#### Very important (For iOS)
+## Very important (For iOS)
 
 For Xcode 10.2 and Swift 5 support please add below line in the Build Settings of your react native iOS project to include the swift libraries:
 
