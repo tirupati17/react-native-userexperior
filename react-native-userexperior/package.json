@@ -1,0 +1,27 @@
+{
+  "name": "react-native-userexperior",
+  "version": "0.1.6",
+  "spec": "latest",
+  "description": "UserExperior react native module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "UserExperior Technologies Pvt. Ltd.",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNUserExperiorPackage()"
+    }
+  },
+  "dependencies": {
+    "react-native": "^0.41.2",
+    "react-native-appsee": "^2.6.2"
+  }
+}
