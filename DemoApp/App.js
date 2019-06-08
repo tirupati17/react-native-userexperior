@@ -20,13 +20,13 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   componentWillMount() {
-    UserExperior.startRecording("qwertyuio");
+    UserExperior.startRecording("f8a8c723-51bb-4533-8554-d9e0ca270a2a");
   }
-  
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
+        <Text style={styles.welcome}>Welcome to UserExperior!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
