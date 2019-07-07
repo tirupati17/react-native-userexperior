@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.9",
-    "react-native-userexperior": "file:react-native-userexperior-0.1.6.tgz",
+    "react-native-userexperior": "file:../react-native-userexperior",
     "react-native-ux-cam": "^5.0.1"
   },
   "devDependencies": {

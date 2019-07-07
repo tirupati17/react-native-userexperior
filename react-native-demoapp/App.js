@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import UserExperior from 'react-native-userexperior'
 
 const instructions = Platform.select({
@@ -26,9 +26,16 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to UserExperior Saturday!</Text>
+        <Text style={styles.welcome}>Welcome to UserExperior Saturday 01!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
+        <Button
+          title="Learn More"
+          color="#841584"
+          collapsable={false}
+          accessibilityLabel="Hello Button"
+          ref='{ x => UserExperior.markViewAsSensitive(x) }' 
+        />
       </View>
     );
   }
